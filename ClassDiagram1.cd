@@ -1,0 +1,452 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DrawableGameComponent" Collapsed="true">
+    <Position X="6.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAgAAEAAAAAAAAAAAAAAIAAAAAAAAAAQ=</HashCode>
+      <FileName>DrawableGameComponent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entity3D" Collapsed="true">
+    <Position X="4.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAIQMAACEAB5BAAgAQAAAKBEREEARDQEDAAAEAAEA=</HashCode>
+      <FileName>Entity3D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameComponent" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAEAAAAAYAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameComponent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Keyboard" Collapsed="true">
+    <Position X="23.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwAAAAAAAAAgAACAAgAAAAAAAAAAACCQAACAABAAAA=</HashCode>
+      <FileName>Keyboard.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShalabiRace">
+    <Position X="10" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAiAAAAAACAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>ShalabiRace.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SkyDome" Collapsed="true">
+    <Position X="12.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAABAAIA4AAAAAAACAAAAAAAABKAAAAABAAAAI=</HashCode>
+      <FileName>SkyDome.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThirdPersonCamera" Collapsed="true">
+    <Position X="23.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgoBZoCiSAKAAACzQIAaACCwIgAAEQQgMCUUAFCFCCA=</HashCode>
+      <FileName>ThirdPersonCamera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RaceScene" Collapsed="true">
+    <Position X="1" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQEAAQAIAAAA4AAAAAEAAgAAgAAAAAAAIABAAAAEAQ=</HashCode>
+      <FileName>RaceScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scene" Collapsed="true">
+    <Position X="1" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAwAAgAAAAAAAQACAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Scene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Terrain" Collapsed="true">
+    <Position X="7.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgAEIcACAAwIABACAAChAJAgAAgKgAEAAgAAAEAA=</HashCode>
+      <FileName>Terrain.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vector2" Collapsed="true">
+    <Position X="18" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAAAA=</HashCode>
+      <FileName>3DModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bitmap" Collapsed="true">
+    <Position X="19.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAUEAoAAgEAAA0AQAgEA0KAiAQkAEgAQQhBEAAQAQA=</HashCode>
+      <FileName>bitmap.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GLFont" Collapsed="true">
+    <Position X="21.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kAgBhEgCgLCACBEZAQimQVBQAKAkCAEEoAxGiA8IUCA=</HashCode>
+      <FileName>gl_font.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Math" Collapsed="true">
+    <Position X="18" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAggAgAAAMACAgCA=</HashCode>
+      <FileName>MathLib.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vector3" Collapsed="true">
+    <Position X="19.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GgAAAAAEAIAQAwQAYAUIAAAAAAQAAIAAAQBgAQAAAqA=</HashCode>
+      <FileName>MathLib.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AABB" Collapsed="true">
+    <Position X="18" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAEAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MathLib.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Matrix4" Collapsed="true">
+    <Position X="19.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GgAAAAAAAAAAAAIAYAcQAAAAAAQAAAgACAAAAABAAqA=</HashCode>
+      <FileName>MathLib.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quaternion" Collapsed="true">
+    <Position X="21.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GgQAAAAEAAIQEgAAYAcAAAAAgAQAAAAAAQhgAQBQAqA=</HashCode>
+      <FileName>MathLib.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLoadMD2" Collapsed="true">
+    <Position X="21.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABGAAAEEAAAAAAAAAAQIAAACAAQgAAAAAFAAAAA=</HashCode>
+      <FileName>Md2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BaseCar" Collapsed="true">
+    <Position X="3.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hs4CABEEBAAAC8gAAAAARBEQCAAAAIAAAIACBgAAAAI=</HashCode>
+      <FileName>BaseCar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Car" Collapsed="true">
+    <Position X="3.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAQAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Car.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Noob" Collapsed="true">
+    <Position X="5.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQQAgEAAAAAAwAAAAAAAQIAAAAAAAAAAIAACAAkAEA=</HashCode>
+      <FileName>Noob.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMD2Model" Collapsed="true">
+    <Position X="23.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAABAAAQDBAAACAEIECIAAQQAAABAAAgACBQEAggAAI=</HashCode>
+      <FileName>md2loader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTexture" Collapsed="true">
+    <Position X="18" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAEAAAAAAAAAAAEIAAAAAAAAQAAAAAAAAABAA=</HashCode>
+      <FileName>texture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTextureManager" Collapsed="true">
+    <Position X="19.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAIAAAAIACQAAAAAAAAgABAAAAACAAAEAAAAACAA=</HashCode>
+      <FileName>texture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="`anonymous-namespace'::TgaHeader" Collapsed="true">
+    <Position X="19.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAAEAAAAAAAAAQIQgAAAAAAgAABAAAgAAIAAAAAACA=</HashCode>
+      <FileName>bitmap.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="`anonymous-namespace'::TgaFooter" Collapsed="true">
+    <Position X="18" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAQAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>bitmap.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="tFace" Collapsed="true">
+    <Position X="23.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>3DModel.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="tMaterialInfo" Collapsed="true">
+    <Position X="21.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAABAAAAAEgAAAAIBCAgAAAIAIAAAA=</HashCode>
+      <FileName>3DModel.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="t3DObject" Collapsed="true">
+    <Position X="21.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAABAAAAARAAAAAAgQIAAFAABAAAAAAAQAAA=</HashCode>
+      <FileName>3DModel.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="t3DModel" Collapsed="true">
+    <Position X="19.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAEAgAAAAAAAAIAAAACIABAAAAAI=</HashCode>
+      <FileName>3DModel.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="tMd2Header" Collapsed="true">
+    <Position X="23.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EgAAVCAAAAAAAAEAAAIAAAAEAgAIAAAAOAAAAAAQABI=</HashCode>
+      <FileName>Md2.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="tMd2AliasTriangle" Collapsed="true">
+    <Position X="18" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Md2.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="tMd2Triangle" Collapsed="true">
+    <Position X="19.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Md2.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="tMd2Face" Collapsed="true">
+    <Position X="19.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Md2.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="tMd2TexCoord" Collapsed="true">
+    <Position X="18" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABIAAAAAAAA=</HashCode>
+      <FileName>Md2.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="tMd2AliasFrame" Collapsed="true">
+    <Position X="23.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAEAAIAAAAAAAAABAA=</HashCode>
+      <FileName>Md2.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="tMd2Frame" Collapsed="true">
+    <Position X="21.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Md2.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="NoobModel" Collapsed="true">
+    <Position X="18" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Noobs.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_00b4_1" Collapsed="true">
+    <Position X="15.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACCDAAAAAAAAEAAABAAAAAmAAAAAACABAAABsAwA=</HashCode>
+      <FileName>md2loader.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_00b4_2" Collapsed="true">
+    <Position X="15.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgABAAAAAAAAA=</HashCode>
+      <FileName>md2loader.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_00b4_3" Collapsed="true">
+    <Position X="1.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAEAAAAAAAAAEAABAA=</HashCode>
+      <FileName>md2loader.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_00b4_4" Collapsed="true">
+    <Position X="13.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAABAAAEAAAAA=</HashCode>
+      <FileName>md2loader.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_00b4_5" Collapsed="true">
+    <Position X="9.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAIAAAgAFAAEAABCAAIAAAAA=</HashCode>
+      <FileName>md2loader.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="tagPCXHEADER" Collapsed="true">
+    <Position X="11.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAIAAAABEQIYAAAAAAIAAIAAIAAEApgAABCAAA=</HashCode>
+      <FileName>pcx.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="tagTGAHEADER" Collapsed="true">
+    <Position X="1.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEIIAQAAAAAQACAAAAgAAAAAAAAAQAABAYAAAAAQAA=</HashCode>
+      <FileName>tga.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="tagBGRAQUAD" Collapsed="true">
+    <Position X="7.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAABQAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>tga.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="tMd2Skin" Collapsed="true">
+    <Position X="18" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Md2.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="vec3_t" Collapsed="true">
+    <Position X="19.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>md2loader.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="md2_t" Collapsed="true">
+    <Position X="15.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>md2loader.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="vertex_t" Collapsed="true">
+    <Position X="15.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>md2loader.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="frame_t" Collapsed="true">
+    <Position X="1.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>md2loader.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="anim_t" Collapsed="true">
+    <Position X="13.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>md2loader.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="animState_t" Collapsed="true">
+    <Position X="9.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>md2loader.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="animType_t" Collapsed="true">
+    <Position X="5.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>md2loader.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PCXHEADER" Collapsed="true">
+    <Position X="11.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pcx.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PPCXHEADER" Collapsed="true">
+    <Position X="11.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pcx.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="TGAHEADER" Collapsed="true">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>tga.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PTGAHEADER" Collapsed="true">
+    <Position X="1.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>tga.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PBGRAQUAD" Collapsed="true">
+    <Position X="8.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>tga.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="BGRAQUAD" Collapsed="true">
+    <Position X="7.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>tga.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="EngineState" Collapsed="true">
+    <Position X="18" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAACAAAAAAAAAAAEAAAAAAAAIAAAA=</HashCode>
+      <FileName>BaseCar.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Gear" Collapsed="true">
+    <Position X="19.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>BaseCar.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_00b4_6" Collapsed="true">
+    <Position X="5.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQgIAAQAgAAAgAAAAgAAgAQAogCAAAAJQAAIEAAAAAA=</HashCode>
+      <FileName>md2loader.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Tahoma" Size="10" />
+</ClassDiagram>

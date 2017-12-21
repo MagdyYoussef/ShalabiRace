@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ShalabiRace">
+</Property><Property Name="Solution File" Value="D:\Computer Science\-- archieve\ShalabiRace\ShalabiRace\ShalabiRace.sln">
+</Property><Property Name="Date" Value="Monday, August 13, 2012">
+</Property><Property Name="Time" Value="16:18 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="ShalabiRace.sln" Description="File successfully backed up as D:\Computer Science\-- archieve\ShalabiRace\ShalabiRace\ShalabiRace.sln.old">
+</Event><Event ErrorLevel="0" Project="Lab7-Starter0" Source="Lab7-Starter0.vcproj" Description="Converting project file 'D:\Computer Science\-- archieve\ShalabiRace\ShalabiRace\Lab7-Starter0.vcproj'.">
+</Event><Event ErrorLevel="1" Project="Lab7-Starter0" Source="Lab7-Starter0.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="Lab7-Starter0" Source="Lab7-Starter0.vcproj" Description="Done converting to new project file 'D:\Computer Science\-- archieve\ShalabiRace\ShalabiRace\Lab7-Starter0.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="Lab7-Starter0" Source="Lab7-Starter0.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="ShalabiRace.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="ShalabiRace.sln" Description="Converted">
+</Event></UpgradeLog>

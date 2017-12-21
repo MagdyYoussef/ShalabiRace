@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Utilties">
+      <UniqueIdentifier>{2ca13b46-b2a5-41b0-89f9-7cc34c2893f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameBase">
+      <UniqueIdentifier>{3aa1454b-60ee-47f9-b595-bde3cd7f37c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameBase\Camera">
+      <UniqueIdentifier>{676b810e-4637-42db-a66f-84b34b2522c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameBase\Scene">
+      <UniqueIdentifier>{cccc6762-8a14-4d16-9812-e205d640e312}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameBase\Terrain">
+      <UniqueIdentifier>{5862ab8a-c09d-4c1c-9bf1-6fdd062b911f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameLogic">
+      <UniqueIdentifier>{b52aa123-2d2a-470d-bb04-104aef0cd8ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animation Loader">
+      <UniqueIdentifier>{103d68c8-7416-4280-a886-7ef206216f4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\GameBase">
+      <UniqueIdentifier>{c2133439-a4d5-44b3-9908-8c7ff5194325}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameBase\Camera">
+      <UniqueIdentifier>{08b6f7f5-9a18-4ac0-b4d0-d8d6ef3ac004}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameBase\Scene">
+      <UniqueIdentifier>{3c7f2810-03ec-4505-be94-bbe195e25554}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameBase\Terrain">
+      <UniqueIdentifier>{0bf9bb03-b02c-47f1-9324-a6ed70c9adc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utilities">
+      <UniqueIdentifier>{fd476ff7-ca4f-4a47-a4ae-a1098e8a6b7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameLogic">
+      <UniqueIdentifier>{a5563df0-7854-4041-9b0d-d5a501bb257f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Animation Loader">
+      <UniqueIdentifier>{a98d69e5-fe73-4258-bb76-2898b1d5a7ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Driver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3DModel.cpp">
+      <Filter>Source Files\Utilties</Filter>
+    </ClCompile>
+    <ClCompile Include="bitmap.cpp">
+      <Filter>Source Files\Utilties</Filter>
+    </ClCompile>
+    <ClCompile Include="gl_font.cpp">
+      <Filter>Source Files\Utilties</Filter>
+    </ClCompile>
+    <ClCompile Include="MathLib.cpp">
+      <Filter>Source Files\Utilties</Filter>
+    </ClCompile>
+    <ClCompile Include="Md2.cpp">
+      <Filter>Source Files\Utilties</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureLoader.cpp">
+      <Filter>Source Files\Utilties</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawableGameComponent.cpp">
+      <Filter>Source Files\GameBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity3D.cpp">
+      <Filter>Source Files\GameBase</Filter>
+    </ClCompile>
+    <ClCompile Include="GameComponent.cpp">
+      <Filter>Source Files\GameBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>Source Files\GameBase</Filter>
+    </ClCompile>
+    <ClCompile Include="ShalabiRace.cpp">
+      <Filter>Source Files\GameBase</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyDome.cpp">
+      <Filter>Source Files\GameBase</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdPersonCamera.cpp">
+      <Filter>Source Files\GameBase\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="RaceScene.cpp">
+      <Filter>Source Files\GameBase\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Source Files\GameBase\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>Source Files\GameBase\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseCar.cpp">
+      <Filter>Source Files\GameLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="Car.cpp">
+      <Filter>Source Files\GameLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="Noob.cpp">
+      <Filter>Source Files\GameLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="bmp.cpp">
+      <Filter>Source Files\Animation Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="md2loader.cpp">
+      <Filter>Source Files\Animation Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="pcx.cpp">
+      <Filter>Source Files\Animation Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>Source Files\Animation Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="tga.cpp">
+      <Filter>Source Files\Animation Loader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DrawableGameComponent.h">
+      <Filter>Header Files\GameBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity3D.h">
+      <Filter>Header Files\GameBase</Filter>
+    </ClInclude>
+    <ClInclude Include="GameComponent.h">
+      <Filter>Header Files\GameBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>Header Files\GameBase</Filter>
+    </ClInclude>
+    <ClInclude Include="ShalabiRace.h">
+      <Filter>Header Files\GameBase</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyDome.h">
+      <Filter>Header Files\GameBase</Filter>
+    </ClInclude>
+    <ClInclude Include="FirstPersonCamera.h">
+      <Filter>Header Files\GameBase\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPersonCamera.h">
+      <Filter>Header Files\GameBase\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="RaceScene.h">
+      <Filter>Header Files\GameBase\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Header Files\GameBase\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>Header Files\GameBase\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="3DModel.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="bitmap.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="gl_font.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="MathLib.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Md2.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureLoader.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseCar.h">
+      <Filter>Header Files\GameLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="Car.h">
+      <Filter>Header Files\GameLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="Noob.h">
+      <Filter>Header Files\GameLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="Noobs.h">
+      <Filter>Header Files\GameLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="anorms.h">
+      <Filter>Header Files\Animation Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="anormtab.h">
+      <Filter>Header Files\Animation Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="bmp.h">
+      <Filter>Header Files\Animation Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="md2loader.h">
+      <Filter>Header Files\Animation Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="pcx.h">
+      <Filter>Header Files\Animation Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>Header Files\Animation Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="tga.h">
+      <Filter>Header Files\Animation Loader</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+</Project>
